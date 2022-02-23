@@ -9,7 +9,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <h1 class="text-3xl font-bold underline">
-Setting up Firebase Authentication
+Setting up Firebase / What happened?
   </h1>
     <div>
     <nav>
