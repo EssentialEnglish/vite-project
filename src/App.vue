@@ -4,10 +4,22 @@
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 
+<!-- copied from learn view firbase auth lesson -->
+
+
 <template>
   <h1 class="text-3xl font-bold underline">
-    Hello!
+Setting up Firebase Authentication
   </h1>
+    <div>
+    <nav>
+      <router-link to="/"> Home </router-link> |
+      <router-link to="/feed"> Feed </router-link> |
+      <router-link to="/register"> Register </router-link> |
+      <router-link to="/sign-in"> Login </router-link> |
+    </nav>
+    <router-view />
+  </div>
 </template>
 
 <style>
